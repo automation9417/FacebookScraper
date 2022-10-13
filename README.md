@@ -14,21 +14,21 @@ We will scrape the post of the Facebook company page as an example.
 
 ### Create a Python project
 Create a Python file, for example, `sample.py`, under a project folder.  
-Show `Locators` under the VS Code Explorer:
+Show `Locators` under the VS Code Explorer:  
 ![locators](/pic/project.png)  
 
 ### Capture locator
 A locator is a tool that targets the UI elements.
 1. Login and open the Facebook company page: https://www.facebook.com/facebook  
-2. Click the `Capture` button in VS Code.  
+2. Click the `Capture` button in VS Code.    
    ![capture](/pic/capture.png)
-3. Click [similar elements](https://www.clicknium.com/documents/tutorial/recorder/capture_similar_elements)    
-   This feature lets you get all the posts on the page that have the same structure. 
-   ![recorder](/pic/Recorder.png)
+3. Click [similar elements](https://www.clicknium.com/documents/tutorial/recorder/capture_similar_elements)      
+   This feature lets you get all the posts on the page that have the same structure.     
+   ![recorder](/pic/Recorder.png)  
 
-- Use `Ctrl + Click` to capture the first post words on Facebook:
+- Use `Ctrl + Click` to capture the first post words on Facebook:  
 ![first element](/pic/elements1.png)  
-- Capture the second post in the same way:
+- Capture the second post in the same way:  
 ![second elements](/pic/elements2.png)  
 You will see there are five elements matched. Click the save button and finish. 
 
