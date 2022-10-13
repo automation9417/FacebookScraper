@@ -1,0 +1,104 @@
+{
+	"id": "b9d01e47-d93d-49ec-9e2d-abce8f0ba22d",
+	"name": "facebook",
+	"nodes": [],
+	"locators": [
+		{
+			"id": "8f914ab3-6a84-4107-ab76-14868adcc16c",
+			"name": "posts",
+			"filePath": "9ac88a57-5861-4782-9f16-d399074b3e8c.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "Facebook"
+							},
+							"url": {
+								"value": "https://www.facebook.com/facebook",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "DIV"
+									},
+									"ancestorId": {
+										"value": "jsc_c_*"
+									},
+									"ancestorClass": {
+										"value": "x78zum5 xdt5ytf xz62fqu x16ldp7u"
+									},
+									"isLeaf": {
+										"value": "0",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>span>div>div",
+										"excluded": true
+									},
+									"sInfo": {
+										"value": "*.",
+										"excluded": true
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									},
+									"dir": {
+										"isCustom": true,
+										"value": "auto",
+										"operator": "equals",
+										"excluded": true
+									},
+									"style": {
+										"isCustom": true,
+										"value": "text-align: start;",
+										"operator": "equals",
+										"excluded": true
+									}
+								},
+								"childControls": [],
+								"excluded": false
+							}
+						],
+						"excluded": false
+					}
+				],
+				"parameters": {
+					"excluded": true,
+					"operator": "equals",
+					"value": ""
+				}
+			}
+		}
+	]
+}
