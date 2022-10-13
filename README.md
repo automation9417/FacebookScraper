@@ -56,6 +56,8 @@ The Facebook content will be loaded when you scroll down the page. So if we capt
 cc.send_hotkey("{PGDN}")
 ```
 We can use a while loop the get all the posts. Since the multiple capture would get the same post for times, we can use a dictionary to store the post and use `ancestorid` as the key. 
+## Source code
+[GitHub](https://github.com/automation9417/FacebookScraper)
 
 
 
